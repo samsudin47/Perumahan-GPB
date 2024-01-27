@@ -16,26 +16,26 @@
     <div id="smooth-wrapper">
       <div id="smooth-content">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg create fixed-top p-3 shadow">
+        <nav class="navbar navbar-expand-lg bg-primary fixed-top p-3 shadow">
           <div class="container">
             <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
               <ul class="navbar-nav me-auto mb-3 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                   <a class="nav-link fw-lighter" href="#home">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-lighter" href="#about">Tentang Perusahaan</a>
+                <li class="nav-item mx-3">
+                  <a class="nav-link fw-lighter" href="#about">Tentang Kami</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                   <a class="nav-link fw-lighter" href="#galeri">Galeri</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                   <a class="nav-link fw-lighter" href="#lokasi">Lokasi</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                   <a class="nav-link fw-lighter" href="#contact">Hubungi kami</a>
                 </li>
               </ul>
@@ -72,7 +72,7 @@
                   <p>3 / 3</p>
                   <h2 class="animate__animated animate__fadeInDownBig">PANDUAN</h2>
                   <h2 class="animate__animated animate__fadeInDownBig">PEMBELIAN RUMAH</h2>
-                  <button type="button" class="btn btn-light">Pelajari Lebih Lanjut</button>
+                  <p class="mb-5 text-start">Panduan pembelian dapat dikonsultasikan lebih lanjut di contact person kami</p>
                 </div>
               </div>
             </div>
@@ -101,9 +101,28 @@
               tetapi juga mencerminkan kepribadian dan gaya hidup seseorang. Oleh karena itu, setiap proyek perumahan yang kami kembangkan didasarkan pada perencanaan yang matang, desain yang cermat, dan penggunaan bahan-bahan yang
               berkualitas tinggi.
             </p>
-            <button type="button" class="btn btn-light">Lihat Detail Perusahaan</button>
+            <button type="button" class="btn btn-light"><a class="text-decoration-none" href="page/about.html">Lihat Detail Perusahaan</a></button>
           </div>
         </section>
+
+        <!-- promo -->
+        <section class="p-3">
+          <div class="container">
+            <div class="row justify-content-around">
+              <div class="col-md-6 text-white mt-3">
+                <h2 class="konsultasi">Ingin konsultasi untuk mendapatkan informasi lebih lanjut?</h2>
+              </div>
+              <div class="col-md-4 text-center mt-5">
+                <button id="buttonVariasi">
+                  <span class="shadoww"></span>
+                  <span class="edge"></span>
+                  <span class="front text"> Hubungi Kami Untuk Konsultasi Lebih Lanjut </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- promo end -->
 
         <section class="p-3">
           <div class="container text-center mt-5">
@@ -508,7 +527,7 @@
         </footer>
 
         <section>
-          <div class="card create text-center rounded-0 border-0">
+          <div class="card bg-primary text-center rounded-0 border-0">
             <div class="card-body">
               <p class="card-text text-light fw-lighter">Create &copy;2024 All Copyright || email : griyapesonabahari@gmail.com</p>
             </div>
@@ -517,34 +536,6 @@
       </div>
     </div>
     <!-- footer end -->
-    <!-- <section class="p-3">
-      <div class="container text-center">
-        <h2>Pilihan warna</h2>
-        <i class="bi bi-arrow-return-right h1"></i>
-        <div class="mt-4">
-          <input type="button" value="blue" />
-          <input type="button" value="red" />
-          <input type="button" value="green" />
-          <input type="button" value="yellow" />
-          <input type="button" value="cyan" />
-          <input type="button" value="magenta" />
-          <input type="button" value="gray" />
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="text-center mt-5 rounded-4 shadow-lg" id="canvas" style="height: 300px; background-color: black; margin: auto"></div>
-      </div>
-    </section> -->
-
-    <!-- <script>
-      const canvas = document.getElementById("canvas");
-      const buttons = document.querySelectorAll("input");
-      for (const button of buttons) {
-        button.onclick = function () {
-          canvas.style.backgroundColor = button.getAttribute("value");
-        };
-      }
-    </script> -->
 
     <!-- section animation -->
     <script src="assets/js/components/_1_collapse.js"></script>
