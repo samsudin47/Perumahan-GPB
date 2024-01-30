@@ -36,7 +36,7 @@
                   <a class="nav-link fw-lighter" href="#lokasi">Lokasi</a>
                 </li>
                 <li class="nav-item mx-3">
-                  <a class="nav-link fw-lighter" href="#contact">Hubungi kami</a>
+                  <a class="nav-link fw-lighter" href="#contact"><span class="text-white">Hubungi kami :</span> 0821 2482 6951</a>
                 </li>
               </ul>
             </div>
@@ -130,24 +130,24 @@
               <div class="col-md">
                 <div data-aos="fade-down-right" data-aos-duration="1000" class="card mt-3" style="width: 18rem">
                   <img src="asset/img/panduan.png" alt="" class="card-img-top" />
-                  <div class="card-body bg-dark rounded-bottom-2">
-                    <button type="button" class="btn btn-outline-light rounded-2">Panduan Pembelian</button>
+                  <div class="card-body bg-white rounded-bottom-2">
+                    <button type="button" class="btn btn-outline-warning rounded-2"><a href="page/panduan.html" class="text-decoration-none">Panduan Pembelian & Angsuran</a></button>
                   </div>
                 </div>
               </div>
               <div class="col-md">
                 <div data-aos="fade-down" data-aos-duration="2000" class="card mt-3" style="width: 18rem">
                   <img src="asset/img/pembiayaan.png" alt="" class="card-img-top" />
-                  <div class="card-body bg-dark rounded-bottom-2">
-                    <button type="button" class="btn btn-outline-light rounded-2">Panduan Angsuran</button>
+                  <div class="card-body bg-white rounded-bottom-2">
+                    <button type="button" class="btn btn-outline-warning rounded-2"><a href="page/syarat.html" class="text-decoration-none">Syarat & Kelengkapan KPR</a></button>
                   </div>
                 </div>
               </div>
               <div class="col-md">
                 <div data-aos="fade-down-left" data-aos-duration="3000" class="card mt-3" style="width: 18rem">
                   <img src="asset/img/miliki.png" alt="" class="card-img-top" />
-                  <div class="card-body bg-dark rounded-bottom-2">
-                    <button type="button" class="btn btn-outline-light rounded-2">Miliki Rumah Impian</button>
+                  <div class="card-body bg-white rounded-bottom-2">
+                    <button type="button" class="btn btn-outline-warning rounded-2"><a href="#" class="text-decoration-none">Miliki Rumah Impian</a></button>
                   </div>
                 </div>
               </div>
@@ -470,10 +470,10 @@
         <!-- get waves end -->
 
         <!-- footer -->
-        <footer id="contact" class="p-3">
-          <div class="container my-4">
+        <footer class="p-3">
+          <div class="container">
             <h4 class="text-light text-center mb-5">PT. <span class="simbol text-warning">Nabata</span> Sentosa Mandiri</h4>
-            <div class="row align-items-start">
+            <div class="row justify-content-around">
               <div class="col-md-4">
                 <p class="paragraph text-light fw-lighter">
                   KPR adalah perjalanan yang menantang namun penuh harapan. Ia adalah langkah pertama yang mengarah pada kesuksesan finansial dan kemandirian. KPR bukan hanya sekadar pinjaman; ia adalah investasi dalam kehidupan,
@@ -484,7 +484,7 @@
                   terlupakan, dan membangun pondasi bagi masa depan yang lebih baik.
                 </p>
               </div>
-              <div class="col-md">
+              <div class="col-md-4">
                 <ul class="li">
                   <a href="#" class="text-light fw-lighter">Perusahaan</a>
                 </ul>
@@ -501,30 +501,29 @@
                   <a href="#" class="text-light fw-lighter">Layanan</a>
                 </ul>
               </div>
-              <div class="col-md-5">
-                <h5 class="text-light fw-lighter mb-3">Konsultasi dengan Kami</h5>
-                <form>
-                  <div class="row mb-3">
-                    <div class="col-sm-10">
-                      <input type="name" class="form-control rounded-0" id="inputName" placeholder="Nama" />
-                    </div>
-                  </div>
-                  <div class="row mb-3">
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control rounded-0" id="inputEmail3" placeholder="Email" />
-                    </div>
-                  </div>
-                  <div class="row mb-3">
-                    <div class="col-sm-10">
-                      <textarea name="pesan" placeholder="  Pesan" id="" cols="39" rows="4"></textarea>
-                    </div>
-                  </div>
-                  <button type="submit" class="btn btn-primary fw-lighter">Hubungi Kami</button>
-                </form>
-              </div>
             </div>
           </div>
         </footer>
+
+        <section id="contact" class="p-3">
+          <div class="container text-center my-5">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-md-6">
+                <img class="mb-3" src="https://i.imgur.com/Dh7U4bp.png" width="300" />
+              </div>
+              <div class="col-md-6">
+                <div class="mx-5">
+                  <h5 class="text-white fw-lighter">Apakah Kamu berminat dengan Perumahan Kami?</h5>
+                  <p class="text-white fw-lighter mb-4">Anda dapat mengirim pesan ke alamat email kami di bawah ini.</p>
+                  <div class="input-group">
+                    <input type="text" class="form-control text-center" placeholder="Kirim Pesan ke email kami" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                    <button class="btn btn-success border-rad" type="button" id="button-addon2"><a href="#" class="text-decoration-none">Hubungi Kami</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section>
           <div class="card bg-primary text-center rounded-0 border-0">
@@ -536,12 +535,6 @@
       </div>
     </div>
     <!-- footer end -->
-
-    <!-- section animation -->
-    <script src="assets/js/components/_1_collapse.js"></script>
-    <script src="assets/js/components/_1_anim-menu-btn.js"></script>
-    <script src="assets/js/components/_2_morphing-navigation.js"></script>
-    <!-- section animation end -->
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
