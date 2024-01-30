@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="shortcut icon" href="../asset/img/logo.png" />
+    <link rel="stylesheet" href="../asset/style.css" />
+    <link rel="stylesheet" href="../asset/style/about.css" />
+    <title>Syarat & Kelengkapan KPR</title>
+  </head>
+  <body class="bg-white">
+    <!-- navbar -->
+    <section class="bg-primary p-3 rounded-bottom-pill">
+      <div class="container text-center">
+        <h3>
+          <a class="navbar-brand simbol text-center text-warning" href="#home">Griya<span class="developer fw-bold text-white"> Pesona Bahari</span></a>
+        </h3>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link fw-lighter" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-lighter text-warning" href="#">Syarat & Kelengkapan KPR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-lighter" href="../index.html#contact"><span class="text-white">Hubungi kami :</span> 0821 2482 6951</a>
+          </li>
+        </ul>
+        <article class="my-5 text-white">
+          <h3 class="mb-3">Miliki Rumah Impian Anda dengan Pengembang Griya Pesona Bahari</h3>
+          <p>Hadir memberikan pengalaman terbaik bagi pencari hunian & solusi bagi yang ingin memiliki rumah sendiri</p>
+        </article>
+      </div>
+    </section>
+    <!-- navbar end -->
+
+    <!-- syarat -->
+    <section class="p-3 bg-primary mt-5">
+      <div class="container text-center">
+        <h4 class="text-center text-white mt-5">Syarat & Kelengkapan</h4>
+        <p class="text-center text-white">Dapat di download pada tombol dibawah ini</p>
+        <button class="btn btn-light rounded-pill mb-5"><a href="../page/pdf.html" class="text-decoration-none">Download PDF</a></button>
+      </div>
+    </section>
+    <!-- syarat -->
+
+    <!-- footer -->
+    <section id="contact" class="p-3 bg-primary">
+      <div class="container text-center my-5">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-6">
+            <img class="mb-3" src="https://i.imgur.com/Dh7U4bp.png" width="300" />
+          </div>
+          <div class="col-md-6">
+            <div class="mx-5">
+              <h5 class="text-white fw-lighter">Apakah Kamu berminat dengan Perumahan Kami?</h5>
+              <p class="text-white fw-lighter mb-4">Anda dapat mengirim pesan ke alamat email kami di bawah ini.</p>
+              <div class="input-group">
+                <input type="text" class="form-control text-center" placeholder="Kirim Pesan ke email kami" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                <button class="btn btn-success border-rad" type="button" id="button-addon2"><a href="#" class="text-decoration-none">Hubungi Kami</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="card bg-primary text-center rounded-0 border-0">
+        <div class="card-body">
+          <p class="card-text text-light fw-lighter">Create &copy;2024 All Copyright || email : griyapesonabahari@gmail.com</p>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <script>
+      jQuery(document).ready(function ($) {
+        $('a[href$=".pdf"]').attr("download", "").attr("target", "_blank");
+      });
+    </script>
+  </body>
+</html>
