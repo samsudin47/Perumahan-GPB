@@ -291,10 +291,27 @@ footer,
   border-color: #f9a826;
 }
 
+.border-rab {
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+
+  color: #fff;
+  background-color: #081547;
+  border-color: #081547;
+}
+
+.border-rab:hover {
+  background-color: #ffff;
+  border-color: #081547;
+}
+
 .wafixed {
   position: fixed;
-  right: 40px;
+  right: 0px;
   bottom: 30px;
   z-index: 999;
-  color: #ffff;
+  background-color: #081547;
+  height: 100px;
+  width: 130px;
+  padding: 15px;
 }
