@@ -317,3 +317,7 @@ footer,
   width: 150px;
   padding: 15px;
 }
+
+#buttonDetail:hover {
+  color: white;
+}
